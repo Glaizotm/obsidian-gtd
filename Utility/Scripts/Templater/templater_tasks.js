@@ -2,7 +2,7 @@
  * Set this to be the full path for the note where you want to store your completed tasks
  * Docs: https://github.com/alangrainger/obsidian-gtd/blob/main/00%20Documentation/Task%20menu%20template.md#archiveremove-completed-tasks
 */
-const completedTasksNote = '01 Project Management/🗄️ Completed tasks.md'
+const completedTasksNote = '03 🔶 GTD/🗄️ TACHES COMPLETEE.md'
 const taskLinePattern = /^[ \t]*- \[[ x]\]/
 
 const isLineATask = (line) => line.match(taskLinePattern) !== null
@@ -56,6 +56,28 @@ class main {
         label: 'Toggle priority 🔼',
         function: this.togglePriority
       },
+      {
+        label: 'Toggle Tel 📞',
+        function: this.toggleTel
+      },
+      {
+        label: 'Toggle Burreau 🖥️',
+        function: this.toggleBurreau
+      },      
+      {
+        label: 'Toggle Course 🛒',
+        function: this.toggleCourse
+      },     
+       {
+        label: 'Toggle A lire 📚',
+        function: this.toggleALire
+      },
+      {
+        label: 'Toggle Film à Voire 🎬 ',
+        function: this.toggleAVoire      
+      },
+      
+
       {
         label: 'Archive/Remove completed tasks',
         function: this.removeCompletedTasks
@@ -119,6 +141,32 @@ class main {
     toggleIndicator(note, '🔼')
     return ''
   }
+  toggleTel(note) {
+    toggleIndicator(note, '📞')
+    return ''
+  }
+  
+  toggleBurreau(note) {
+    toggleIndicator(note, '🖥️')
+    return ''
+  }
+
+  toggleCourse(note) {
+    toggleIndicator(note, '🛒')
+    return ''
+  }
+
+  toggleALire(note) {
+    toggleIndicator(note, '📚')
+    return ''
+  }
+
+  toggleAVoire(note) {
+    toggleIndicator(note, '🎬')
+    return ''
+  }
+
+
 
   async removeCompletedTasks(note) {
     if (note.file.path === completedTasksNote) {

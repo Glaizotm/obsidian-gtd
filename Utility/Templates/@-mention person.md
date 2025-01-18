@@ -1,6 +1,6 @@
 <%* 
 // Get the list of people
-const people = app.plugins.plugins.dataview.api.pages('"People"')
+const people = app.plugins.plugins.dataview.api.pages('"04 👤 People"')
   .sort(x => x.file.inlinks.length, 'desc')
   .file.name
 

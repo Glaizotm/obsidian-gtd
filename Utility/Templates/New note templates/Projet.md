@@ -1,7 +1,7 @@
 ---
 created: <% moment().format() %>
 completed: false
-template_destination_folder: 01 Project Management/Projects
+template_destination_folder: 03 🔶 GTD/PROJETS
 ---
 # <% tp.file.title %>
 #project

@@ -51,7 +51,8 @@ const Groups = {
   Waiting: 0,
   Priority: 1,
   Normal: 2,
-  Someday: 3
+  Someday: 3,
+  FilmIdea: 4
 }
 
 /**

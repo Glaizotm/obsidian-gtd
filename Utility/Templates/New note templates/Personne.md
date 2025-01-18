@@ -3,7 +3,7 @@ name: <% tp.file.title.replace('@', '') %>
 tags: person
 created: <% moment().format() %>
 template_title: "👤"
-template_destination_folder: People
+template_destination_folder: 04 👤 People
 ---
 # <% tp.file.title.replace('👤', '') %>
 
