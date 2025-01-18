@@ -10,7 +10,7 @@ Tag : #daily
 ***
 ## 🌱 Tache Journalières
 - [ ] Sport 
-- [ ] Lecturesssssssssss
+- [ ] Lecture
 
 ## Synthèse journée 
 
