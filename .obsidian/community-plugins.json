@@ -1,5 +1,6 @@
 [
   "dataview",
   "templater-obsidian",
-  "obsidian-view-mode-by-frontmatter"
+  "obsidian-view-mode-by-frontmatter",
+  "calendar"
 ]

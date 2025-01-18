@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "00 Documentation/Documentation.md",
                 "mode": "preview",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Documentation"
             }
           }
         ]
@@ -39,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -80,12 +88,22 @@
         "type": "tabs",
         "children": [
           {
+            "id": "b906589b4717ab31",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
             "id": "ef28cf274dcb9800",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "00 Documentation/Documentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +111,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Documentation"
             }
           },
           {
@@ -102,10 +122,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "00 Documentation/Documentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Documentation"
             }
           },
           {
@@ -116,7 +138,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +149,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
-              }
+                "file": "00 Documentation/Documentation.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Documentation"
             }
           },
           {
@@ -135,12 +161,15 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
-              }
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "badfc2fc2a02e3e7",
@@ -152,15 +181,17 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "README.md"
-              }
+                "file": "00 Documentation/Documentation.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Documentation"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 357.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,43 +203,46 @@
   },
   "active": "d3c713293155d043",
   "lastOpenFiles": [
-    "Periodic notes/2023-08-18.md",
     "00 Documentation/Task menu template.md",
-    "00 Documentation/Documentation.md",
-    "00 Documentation/GTD/Next Actions.md",
-    "00 Documentation/tasks.js.md",
     "00 Documentation/Mobile quick add.md",
+    "00 Documentation/Documentation.md",
+    "01 Project Management/✅ Tasks.md",
+    "01 Project Management/Projects/Overhaul TPS reports system.md",
+    "2025-01-19.md",
+    "Periodic notes/2025-01-18.md",
+    "01 Project Management/Projects/Write a how-to guide for GTD in Obsidian.md",
+    "Utility/Scripts/Dataview/tasks.js",
+    "Utility/Scripts/Dataview/tasksmax.js",
     "Utility/Templates/Tasks menu.md",
     "Utility/Templates/New note.md",
     "Utility/Templates/@-mention person.md",
-    "Utility/Templates/New note templates/Person.md",
-    "Utility/Templates/New note templates/Project.md",
-    "People/👤David.md",
-    "People/👤Brent.md",
-    "People/👤Mum.md",
-    "People/👤Lumbergh.md",
-    "People/👤Jim.md",
-    "Utility/Templates/New note templates/Meeting.md",
-    "Utility/Templates/New note templates/! Default note.md",
-    "01 Project Management/Projects/Write a how-to guide for GTD in Obsidian.md",
-    "01 Project Management/Projects/Take a holiday in Spain.md",
-    "01 Project Management/Projects/Renovate the kitchen.md",
-    "01 Project Management/Projects/Overhaul TPS reports system.md",
-    "01 Project Management/🗃️ Projects list.md",
-    "01 Project Management/🗄️ Completed tasks.md",
+    "Utility/Scripts/Dataview/tasks.js.bck",
+    "tasksMax.js",
+    "tasks.js",
     "01 Project Management/📝 Next actions list.md",
-    "01 Project Management/✅ Tasks.md",
+    "01 Project Management/Projects/Renovate the kitchen.md",
+    "00 Documentation/tasks.js.md",
+    "01 Project Management/🗄️ Completed tasks.md",
+    "01 Project Management/🗃️ Projects list.md",
+    "01 Project Management/Projects/Take a holiday in Spain.md",
+    "People/👤Brent.md",
+    "tasks_max.js",
+    "People/👤David.md",
+    "People/👤Lumbergh.md",
+    "People/👤Mum.md",
+    "Periodic notes/2023-08-18.md",
+    "People/👤Jim.md",
+    "00 Documentation/attachments/Pasted image 20230821133422.png",
+    "00 Documentation/attachments/Pasted image 20230821132802.png",
+    "00 Documentation/attachments/Pasted image 20230820170011.png",
+    "00 Documentation/attachments/ef2dfe619fd96a00f3efc4514687f1262d4ac507.gif",
+    "00 Documentation/attachments/134677c2aebe237fc0e9fde2a0968d5145b60bf6_2_586x1000.jpeg",
+    "README.md",
+    "00 Documentation/GTD/Next Actions.md",
     "Utility/Scripts/Dataview/mentions-table.js",
     "People",
     "02 Vault",
     "01 Project Management/Meetings",
-    "Utility/Templates/New note templates",
-    "99 Utility/Scripts/Dataview/tasks.js",
-    "99 Utility/Scripts/Dataview",
-    "99 Utility/Scripts",
-    "99 Utility",
-    "02 Documentation/attachments/Pasted image 20230821082403.png",
-    "00 Documentation/attachments",
-    "00 Documentation/attachments/Pasted image 20230820170011.png"
+    "02 Documentation/attachments/Pasted image 20230821082403.png"
   ]
 }

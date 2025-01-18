@@ -16,7 +16,9 @@ const globalExclude = {
     '#completed'
   ],
   headings: [
-    '🌱 Daily Habits'
+    '🌱 Daily Habits',
+    '🌱 Tache Journalières',
+    '🌱 Tache Journalieres'  
   ]
 }
 
@@ -58,10 +60,13 @@ const Groups = {
  * @param {*} page
  * @returns {object}
  */
-function generateTaskElement (task, page) {
+function generateTaskElement(task, page) {
   let group = Groups.Normal
   if (task.tags.includes('#someday')) {
     group = Groups.Someday
+    }
+  else if (task.text.includes('🎬')) {
+      group = Groups.FilmIdea
   } else if (task.tags.includes('#waiting-on')) {
     group = Groups.Waiting
   } else if (task.text.includes('🔼') || page.tags.includes('#🔼')) {
@@ -172,7 +177,7 @@ tasks.sort((a, b) => a.group - b.group || a.date - b.date)
 
 /**
  * Output a formatted task list
- * @param {number|null} group  - Filter for tasks in a particular group, or null for all tasks
+ * @param {number|null} group - Filter for tasks in a particular group, or null for all tasks
  * @param {string|null} header - The text header for the task list
  * @param {string} [tag]       - Any tag to filter by - this could be for @contexts
  */
@@ -196,6 +201,7 @@ if (noNextAction.length) {
 
 // Output the task list
 taskList(Groups.Priority, '🔼 Priority',)
-taskList(Groups.Waiting, '⏳ Waiting on...')
-taskList(Groups.Normal, '✅ Next actions')
-taskList(Groups.Someday, '💤 Someday')
+taskList(Groups.Waiting,  '⏳ Waiting on...')
+taskList(Groups.Normal,   '✅ Next actions')
+taskList(Groups.Someday,  '💤 Someday')
+taskList(Groups.FilmIdea,   '🎬 Idée Film')
